@@ -1,0 +1,50 @@
+
+
+#body-label {
+    text-align: center;
+    background-color: #87CEEB;
+    width: 480px;
+}
+
+table,
+td,
+tr,
+th,
+tbody,
+tfoot,
+thead {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+#state {
+    width: 35px;
+}
+
+#zip-and-postal-code {
+    width: 50px;
+}
+
+#country-select {
+    width: 160px;
+}
+
+#country-code {
+    width: 40px;
+}
+
+#area-code {
+    width: 45px;
+}
+
+#number {
+    width: 100px;
+}
+tr>td:first-of-type {
+    text-align: center;
+    font-weight: bold;
+}
+tfoot {
+    background-color: #87CEEB;
+}

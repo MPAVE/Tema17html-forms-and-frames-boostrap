@@ -1,0 +1,25 @@
+
+#body-label {
+    text-align: center;
+    background-color: #87CEEB;
+    width: 480px;
+}
+table,
+    tfoot,
+    tbody,
+    thead,
+    tr,
+    td,
+    th {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    
+    .centered {
+        text-align: center;
+    }
+    
+    .bold-font {
+        font-weight: bold;
+    }
