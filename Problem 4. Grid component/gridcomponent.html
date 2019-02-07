@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>University grid</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td class="bold-font" colspan="6">Drag a columm header and drop it here to group by that column</td>
+            </tr>
+        
+        <span>
+            <tr>
+                <td class="bold-font centered" >ProductID</td>
+                <td class="bold-font centered" >ProductName</td>
+                <td class="bold-font centered" >Unit price</td>
+                <td class="bold-font centered" >Quantity per unit</td>
+                <td class="bold-font centered" >Units in stock</td>
+                <td class="bold-font centered" >Discontinued </td>
+            </tr>
+           </span>
+        </thead>
+        <tfoot>
+            <td colspan="6">
+                <input type="button" value="Previous">
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">7</a>
+                <a href="#">8</a>
+                <a href="#">9</a>
+                <a href="#">10</a>
+				<span>...</span>
+				<a href="#">...</a>
+                <input type="button" value="Next">
+                
+                    <label for="page">Page size:</label>
+                
+                
+                    <select name="page-select" id="page">
+                     <option value="10">10</option>
+                        <option value="9">9</option>
+                        <option value="8">8</option>
+                        <option value="7">7</option>
+                        <option value="6">6</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                      
+                    </select>
+                
+                    &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span><label for="items">335104 items in 33511 pages</label></span>
+            </td>
+        </tfoot>
+        <tbody>
+            
+            <tr> 
+                <td><input id="ProductID" type="text"></td>
+                <td><input id="ProductName" type="text"></td>
+                <td><input id="Unitprice" type="text"></td>
+                <td><input id="Quantity" type="text"></td>
+                <td><input id="Unitsstock" type="text"></td>
+                <td><input id="Discontinued" type="checkbox"></td>
+                
+                
+
+            </tr>
+            
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$18.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chang</td>
+                <td>$19.00</td>
+                <td>24-12 oz bottles</td>
+                <td>17</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Anissed Syrup</td>
+                <td>$10.00</td>
+                <td>12-550 ml bottles</td>
+                <td>13</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Chef Anton's Cajun Seasoning</td>
+                <td>$22.00</td>
+                <td>48-6 oz jars</td>
+                <td>53</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Chef Anton's Gumbo Mix</td>
+                <td>$21.35</td>
+                <td>36 boxes</td>
+                <td>0</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Grandm's Boysenberry Spread</td>
+                <td>$25.00</td>
+                <td>12-8 oz jars</td>
+                <td>120</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+            <tr>
+                    <td>7</td>
+                <td>Uncle Bob's Organic Died Pears</td>
+                <td>$30.00</td>
+                <td>12-1 lb pkgs</td>
+                <td>15</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Northwoods Cranberry Sauce</td>
+                <td>$40.00</td>
+                <td>12-12 oz jars</td>
+                <td>6</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Mishi Kobe Niku</td>
+                <td>$97.00</td>
+                <td>18-500 g pkgs</td>
+                <td>29</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ikura</td>
+                <td>$31.00</td>
+                <td>12-200 ml jars</td>
+                <td>31</td>
+                <td>  <input id="check" name="check" type="checkbox">
+                    </td>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
